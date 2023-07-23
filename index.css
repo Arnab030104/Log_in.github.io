@@ -1,0 +1,79 @@
+ 
+    body {
+      margin: 0;
+      padding: 0;
+      min-width: 393px;
+      background-color: #7895CB;
+    }
+    .nav_bar{
+        background-color: #4A55A2;
+        color: #fff;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+    }
+    #heading{
+        margin: 0;
+        font-size: 30px;
+        position: relative;
+        left: 20px;
+    }
+    nav {
+      padding: 6px;
+      font-size: 18px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    
+    .login-container {
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      position: relative;
+    }
+
+    .login-container h2 {
+        background-color: #7895CB;
+        position: absolute;
+        top:-20%;
+        font-size: 39px;
+    }
+
+    .login-container label,
+    .login-container input {
+      display: block;
+      width: 98%;
+      margin-bottom: 10px;
+      font-size: 30px;
+    }
+    #fst{
+        margin-top: 10px;
+    }
+    .login-container input[type="submit"] {
+      background-color: #A0BFE0;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 23px;
+      margin-bottom: 2px;
+      width: 100%;
+    }
+
+    .login-container input[type="submit"]:hover {
+      background-color: #C5DFF8;
+      color:#4A55A2;
+    }
+   
